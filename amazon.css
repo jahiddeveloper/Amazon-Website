@@ -202,3 +202,33 @@ span {
 #button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover {
     color: rgb(228, 227, 227)
 }
+
+
+/****hero-section***/
+
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.hero-mass {
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 40px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.hero-mass a {
+    color: #007185;
+    font-size: 0.85rem;
+}
